@@ -1,0 +1,98 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-image: url("https://wallpapercave.com/wp/wp1860191.jpg");
+}
+.caixa-maior {
+    background: #000000;
+    opacity: 0.9;
+    border-radius: 35px;
+    padding: 30px;
+
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100%-70px);
+}
+
+.botao-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 45px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-busca {
+    width: 20px;
+}
+
+.caixa-media {
+    margin-top: 30px;
+    position: relative;
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.texto-previsao {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+
+}
+.obter-localizacao{
+bottom: 0;
+right: 0;
+margin-bottom: 20px;
+margin-right: 20px;
+background-color: #7c7c7c2b;
+border: none;
+outline: none;
+padding: 10px 20px;
+color: #ffffff;
+border-radius: 25px;
+box-shadow: 10px 20px rgb(2, 2, 2);
+cursor: pointer;
+}

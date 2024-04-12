@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="img-busca" alt="busca" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+       
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em Salvador </h2>
+
+            <p class="temp">28°c</p>
+
+            <div class="caixa-menor">
+                <img class="icone" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="texto-previsao">Limpo</p>
+            </div>
+
+            <p class="umidade">Umidade:75%</p>
+
+            <button class="obter-localizacao" onclick="getLocation()">Obter Localização</button>
+
+        </div>
+    </div>
+  
+</body>
+
+</html>
